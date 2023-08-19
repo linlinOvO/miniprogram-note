@@ -1,0 +1,12 @@
+function toUpper(str){
+    return str.toUpperCase()
+}
+
+function showFirstChar(str){
+    return str[0]
+}
+
+module.exports = {
+    toUpper: toUpper,
+    showFirstChar: showFirstChar
+}

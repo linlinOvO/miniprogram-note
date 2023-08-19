@@ -1,0 +1,9 @@
+<!--pages/contact/contact.wxml-->
+<view class="contact-container">
+    <view 
+    wx:for="{{colorList}}" 
+    wx:key="index" 
+    style="background-color: rgb({{item}});"
+    class="contact-item"
+>{{item}}</view>
+</view>

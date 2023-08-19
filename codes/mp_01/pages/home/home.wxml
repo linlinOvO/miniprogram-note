@@ -1,0 +1,14 @@
+<!--pages/home/home.wxml-->
+<text>pages/home/home.wxml</text>
+<navigator url="/pages/message/message" open-type="switchTab">导航到消息页面</navigator>
+<view>--------</view>
+<navigator url="/pages/info/info?name=zs&age=20" open-type="navigate">导航到info页面</navigator>
+<vieww>-------</vieww>
+<button bind:tap="goToMessage" type="primary">导航到消息页面</button>
+<vieww>-------</vieww>
+<test max="100"></test>
+<view>-------</view>
+<button type="primary">按钮</button>
+<view>-------</view>
+<van-button type="primary">按钮</van-button>
+<view>{{numA}}</view>

@@ -1,0 +1,4 @@
+<view>{{m1.toUpper("username")}}</view>
+<view>{{m1.showFirstChar("username")}}</view>
+
+<wxs src="../../utils/tool.wxs" module="m1"></wxs>

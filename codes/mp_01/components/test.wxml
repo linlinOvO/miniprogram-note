@@ -1,0 +1,6 @@
+<!--components/test.wxml-->
+<view>components/test.wxml</view>
+<view></view>
+<view>max: {{max}}</view>
+<view>min: {{min}}</view>
+<view>behavior.username: {{username}}</view>
